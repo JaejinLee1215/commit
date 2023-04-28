@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Verti by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="is-preload left-sidebar">
+<div id="page-wrapper">
+
+  <!-- Header -->
+  <div id="header-wrapper">
+    <header id="header" class="container">
+
+      <!-- Logo -->
+      <div id="logo">
+        <h1><a href="index.html">Commit</a></h1>
+        <span>by HTML5 UP</span>
+      </div>
+
+      <!-- Nav -->
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li>
+            <a href="#">Dropdown</a>
+            <ul>
+              <li><a href="#">C</a></li>
+              <li><a href="#">C++</a></li>
+              <li><a href="#">C#</a>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+          </li>
+        </ul>
+
+        </li>
+        <li class="current"><a href="left_sidebar.html">Left Sidebar</a></li>
+        <li><a href="list">List</a></li>
+        </ul>
+      </nav>
+
+      <!-- jQuery 코드 -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+                $(document).ready(function() {
+                  $('#nav ul ul').hide(); // 드롭다운 메뉴 숨김
+
+                  $('#nav ul li').hover(function() { // 마우스 호버 이벤트 핸들러
+                    $('ul', this).stop().slideToggle(200); // 드롭다운 메뉴 보이기/숨기기
+                  });
+                });
+      </script>
+
+    </header>
+  </div>
+
+  <!-- Main -->
+  <div id="main-wrapper">
+    <div class="container">
+      <div class="row gtr-200">
+        <div class="col-4 col-12-medium">
+          <div id="sidebar">
+
+            <!-- Sidebar -->
+            <section>
+              <h3>개발자 취업을 위한 기술 면접 꿀팁!</h3>
+              <p>기술 면접은 일반적으로 지원자의 기술적인 역량을 평가하기 위한 시험입니다.
+                이에 따라, 면접관은 자세한 기술적인 질문을 통해 지원자의 기술적 지식과 실무 경험을 평가하고,
+                그 결과를 바탕으로 최종적으로 채용 여부를 결정합니다.
+                따라서 기술 면접에 대비하기 위해 다음과 같은 방법과 자주 묻는 질문을 준비해볼 수 있습니다.
+              </p>
+              <footer>
+                <a href="https://www.youtube.com/@leebro_interview/playlists" class="button icon solid fa-info-circle">Find out more</a>
+              </footer>
+            </section>
+
+            <section>
+              <h3>자주 묻는 질문</h3>
+              <details>
+                <summary>1. 기술적인 역량 및 지식 확인을 위한 질문</summary>
+                ◎ 어떤 프로그래밍 언어를 사용하나요? 그 언어를 어디에서 배웠나요?<br>
+                ◎ 프로그래밍 언어의 개념을 이해하고 있나요? 예를 들어, 객체지향 프로그래밍의 개념을 설명할 수 있나요?<br>
+                ◎ 어떤 종류의 데이터베이스를 사용하나요? 데이터베이스 스키마를 설명해볼 수 있나요?<br>
+                ◎ HTTP와 HTTPS의 차이점은 무엇인가요?<br>
+                ◎ 컴퓨터 과학에서 가장 기본적인 알고리즘 중 어떤 것을 아는지 말해주세요.<br>
+                ◎ 분산 시스템이 무엇인가요? 쿠버네티스와 같은 도구를 사용해보았나요?
+              </details>
+              <details>
+                <summary>2. 프로젝트 경험에 관한 질문</summary>
+                ◎ 이전에 진행한 프로젝트를 설명해볼 수 있나요? 그 프로젝트에서의 역할은 무엇이었나요?<br>
+                ◎ 프로젝트에서 발생한 문제에 대해 어떻게 대처했나요?<br>
+                ◎ 이전 프로젝트를 수행할 때 사용한 도구 및 기술을 설명해주세요.<br>
+                ◎ 당신이 작성한 코드의 가독성과 효율성을 개선하기 위해 어떤 노력을 했나요?
+              </details>
+              <details>
+                <summary>3. 지원자의 개인 역량에 관한 질문</summary>
+                ◎ 어떻게 문제를 해결하나요? 어떤 방식으로 문제 해결을 시도하나요?<br>
+                ◎ 문제 해결을 위한 알고리즘을 고안하는 것이 어떻게 이루어지나요?<br>
+                ◎ 당신이 한 가지 기술적인 문제에 놓인 한계점을 극복하는 데에는 어떤 노력을 했나요?<br>
+                ◎ 개발을 위해 새로운 기술을 배울 때, 어떤 방식으로 학습하나요?
+              </details>
+              <details>
+                <summary>4. 기업 및 업계에 관한 질문</summary>
+                ◎ 당신이 지원한 이 회사에 대해서 얼마나 알고 있나요?<br>
+                ◎ 현재 시장에서 떠오르는 기술 트렌드는 무엇인가요? 당신은 이에 대해 어떻게 생각하나요?<br>
+                ◎ 어떤 기업이 최근 가장 인상 깊었나요? 그 이유는 무엇인가요?<br>
+                ◎ 소프트웨어 개발자로서, 가장 큰 업계 도전 과제는 무엇이라고 생각하나요?
+              </details>
+              <details>
+                <summary>5. 문제 해결 능력에 대한 질문</summary>
+                ◎ 이전 경험 중 가장 어려웠던 기술적인 문제는 무엇이었나요? 어떻게 해결했나요?<br>
+                ◎ 문제 해결을 위해 동료나 상사에게 어떻게 도움을 요청하나요?<br>
+                ◎ 비즈니스적인 문제를 기술적인 방법으로 어떻게 해결하나요?
+              </details>
+              <details>
+                <summary>마지막</summary>
+                이와 같은 기술 면접 질문에 대해 미리 준비하고, 경험과 지식을 적극적으로 발휘할 수 있는 자세가 필요합니다.
+                또한, 기술 면접에서는 자신의 능력과 경험을 홍보할 수 있는 기회이기도 하므로, 자신을 어필하는 방법에 대해서도 미리 준비하면 도움이 됩니다.
+              </details>
+              <ul class="style2">
+            </section>
+
+          </div>
+        </div>
+        <div class="col-8 col-12-medium imp-medium">
+          <div id="content">
+
+            <!-- Content -->
+            <article>
+
+              <h2>채용 공고</h2>
+
+              <p>안녕하세요! 저희 CommitTogether에서는 개발자들을 위한 채용 공고 소개란을 제공합니다. 이곳에서는 다양한 분야의 IT 기업 및 스타트업의 채용 공고를 소개합니다.<br>
+
+                우리 커뮤니티에서는 전문적인 개발자들뿐만 아니라 새로운 기술과 경험을 쌓고자 하는 개발 초보자들도 환영합니다. 따라서 채용 공고 소개란은 다양한 경력과 분야에서 일하고 싶은 개발자들에게 도움이 되는 정보를 제공할 것입니다.<br>
+
+                저희 커뮤니티에서 제공하는 채용 공고 소개란은 최신의 채용 공고 정보를 제공합니다. 여러분들은 이곳에서 자신의 분야에 맞는 채용 공고를 찾아볼 수 있습니다. 또한, 매일 업데이트되는 채용 정보를 통해 항상 최신의 채용 동향을 파악할 수 있습니다.<br>
+
+                저희 커뮤니티에서 제공하는 채용 공고 소개란은 다양한 IT 기업 및 스타트업들의 채용 정보를 모아놓은 것으로, 개발자들이 쉽게 취업 기회를 찾을 수 있도록 돕는 것이 목적입니다. 또한, 채용 정보뿐만 아니라 기업 정보와 채용 프로세스 등을 제공하여 개발자들이 더욱 잘 알고 쉽게 지원할 수 있도록 돕고자 합니다.<br>
+
+                채용 공고 소개란을 이용하여 여러분들의 개발자 취업에 도움이 되길 바랍니다. 감사합니다!</p>
+
+              <h3>IT 채용공고 사이트 모음</h3>
+              <a href="https://www.wanted.co.kr/jobsfeed?utm_source=google&utm_medium=sa&utm_campaign=kr_recruit_web_sa_signup_brand&utm_term=%EC%9B%90%ED%8B%B0%EB%93%9C&utm_content=brand&gclid=CjwKCAjwl6OiBhA2EiwAuUwWZQJxOo1yWijSDunaFuAVvABB4NNcTbv2glDcbSRmKE4rcpR3nMpEmRoCQBwQAvD_BwE">
+                <img src="image/1.png" alt="원티드">
+              </a>
+              <a href="https://career.programmers.co.kr/competitions">
+                <img src="image/2.jpg" alt="프로그래머스"></a>
+              <a href="https://www.rocketpunch.com/">
+                <img src="image/3.png" alt="로켓펀치">
+              </a>
+              <a href="https://www.jumpit.co.kr/">
+                <img src="image/4.png" alt="점핏">
+              </a>
+              <a href="https://www.wishket.com/?referer_type=2010108004&utm_source=google_bs&utm_medium=cpc&utm_campaign=18634201344&utm_content=%EC%9C%84%EC%8B%9C%EC%BC%93&utm_term=&gad=1&gclid=CjwKCAjwl6OiBhA2EiwAuUwWZdyd2cumE3jgWs50SKgSy7jeBURfBcAHo4silZSgelpcKITsN7oOMRoC0hYQAvD_BwE">
+                <img src="image/5.jpg" alt="위시켓"></a>
+              <a href="https://www.beginmate.com/">
+                <img src="image/6.png" alt="비긴메이트"></a>
+              <a href="https://kr.indeed.com/">
+                <img src="image/7.png" alt="인디드"></a>
+              <a href="https://www.saramin.co.kr/zf_user/">
+                <img src="image/8.png" alt="사람인">
+              </a>
+              <a href="https://www.jobkorea.co.kr/">
+                <img src="image/9.jpg" alt="잡코리아"></a>
+              <a href="https://www.jobplanet.co.kr/job">
+                <img src="image/10.png" alt="잡플래닛"></a>
+
+
+
+
+
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer-wrapper">
+    <footer id="footer" class="container">
+      <div class="row">
+        <div class="col-3 col-6-medium col-12-small">
+
+          <!-- Links -->
+          <section class="widget links">
+            <h3>Random Stuff</h3>
+            <ul class="style2">
+              <li><a href="#">Etiam feugiat condimentum</a></li>
+              <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+              <li><a href="#">Sed porttitor cras in erat nec</a></li>
+              <li><a href="#">Felis varius pellentesque potenti</a></li>
+              <li><a href="#">Nullam scelerisque blandit leo</a></li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="col-3 col-6-medium col-12-small">
+
+          <!-- Links -->
+          <section class="widget links">
+            <h3>Random Stuff</h3>
+            <ul class="style2">
+              <li><a href="#">Etiam feugiat condimentum</a></li>
+              <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+              <li><a href="#">Sed porttitor cras in erat nec</a></li>
+              <li><a href="#">Felis varius pellentesque potenti</a></li>
+              <li><a href="#">Nullam scelerisque blandit leo</a></li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="col-3 col-6-medium col-12-small">
+
+          <!-- Links -->
+          <section class="widget links">
+            <h3>Random Stuff</h3>
+            <ul class="style2">
+              <li><a href="#">Etiam feugiat condimentum</a></li>
+              <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+              <li><a href="#">Sed porttitor cras in erat nec</a></li>
+              <li><a href="#">Felis varius pellentesque potenti</a></li>
+              <li><a href="#">Nullam scelerisque blandit leo</a></li>
+            </ul>
+          </section>
+
+        </div>
+        <div class="col-3 col-6-medium col-12-small">
+
+          <!-- Contact -->
+          <section class="widget contact">
+            <h3>Contact Us</h3>
+            <ul>
+              <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+              <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+            </ul>
+            <p>1234 Fictional Road<br />
+              Nashville, TN 00000<br />
+              (800) 555-0000</p>
+          </section>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="copyright">
+            <ul class="menu">
+              <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</div>
+
+<!-- Scripts -->
+
+<script src="src/main/webapp/js/jquery.min.js"></script>
+<script src="src/main/webapp/js/jquery.dropotron.min.js"></script>
+<script src="src/main/webapp/js/browser.min.js"></script>
+<script src="src/main/webapp/js/breakpoints.min.js"></script>
+<script src="src/main/webapp/js/util.js"></script>
+<script src="src/main/webapp/js/main.js"></script>
+
+</body>
+</html>

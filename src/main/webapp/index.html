@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>CommitTogether</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/image/favicon-16x16.png" type="image/png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/dropdown.js"></script>
+</head>
+<body class="is-preload homepage">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <div id="header-wrapper">
+        <header id="header" class="container">
+
+            <!-- Logo -->
+            <div id="logo">
+                <h1><a href="index.html">CommitTogether</a></h1>
+                <span>by All</span>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Welcome</a></li>
+                    <li>
+                        <a href="#">Dropdown</a>
+                        <ul>
+                            <li><a href="#">C</a></li>
+                            <li><a href="#">C++</a></li>
+                            <li><a href="#">C#</a>
+                            <li><a href="#">Python</a></li>
+                            <li><a href="#">Java</a></li>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                    </li>
+                </ul>
+
+                </li>
+                <li class="current"><a href="left_sidebar.html">Left Sidebar</a></li>
+                <li><a href="list">List</a></li>
+                </ul>
+            </nav>
+
+            <!-- jQuery 코드 -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                  $('#nav ul ul').hide(); // 드롭다운 메뉴 숨김
+
+                  $('#nav ul li').hover(function() { // 마우스 호버 이벤트 핸들러
+                    $('ul', this).stop().slideToggle(200); // 드롭다운 메뉴 보이기/숨기기
+                  });
+                });
+            </script>
+
+        </header>
+    </div>
+
+
+    <!-- Banner -->
+    <div id="banner-wrapper">
+        <div id="banner" class="box container">
+            <div class="row">
+                <div class="col-7 col-12-medium">
+                    <h2>Hello!</h2>
+                    <h3>We are developer study community</h3>
+                    <p>C, C++, C#, Python, Java, HTML + CSS + JavaScript ...and so on</p>
+                </div>
+                <div class="col-5 col-12-medium">
+                    <ul>
+                        <li><a href="#" class="button large icon solid fa-arrow-circle-right">Ok let's go</a></li>
+                        <li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div id="features-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-12-medium">
+
+                    <!-- Box -->
+                    <section class="box feature">
+                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                        <div class="inner">
+                            <header>
+                                <h2>개발자가 가져야 할 필수 소양 3가지!</h2>
+                                <p>3 tip!</p>
+                            </header>
+                            <p>1. 문제 해결 능력 :<br>
+                                소프트웨어 개발에서는 문제 해결 능력이 매우 중요합니다. 개발자는 복잡한
+                                문제를 식별하고, 이를 해결할 수 있는 방법을 찾아내어야 합니다. 이를 위해서는
+                                논리적인 사고와 분석 능력이 필요합니다.<br>
+                                2. 협업 능력 :<br>
+                                개발은 종종 팀으로 작업하게 됩니다. 이 때, 효과적인 협업 능력은 필수적입니다.
+                                다른 개발자나 디자이너, 프로젝트 관리자와 원활한 의사소통을 하며, 코드를 작성하고
+                                관리하는 데 필요한 능력이 필요합니다.<br>
+                                3. 학습 능력 :<br>
+                                소프트웨어 개발은 지속적인 학습이 필요한 분야입니다. 새로운 기술, 언어, 도구등이
+                                지속적으로 등장하므로, 개발자는 이러한 변화에 적응하며 지속적으로 배워나가는 능력이
+                                필요합니다. 새로운 기술과 개발 방법을 배우는 능력은 개발자의 경쟁력을 높이는 데 큰 도움이
+                                됩니다.
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="col-4 col-12-medium">
+
+                    <!-- Box -->
+                    <section class="box feature">
+                        <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+                        <div class="inner">
+                            <header>
+                                <h2>요즘 유행하는 IT 분야를 알아보자!2023년 IT 트렌드!</h2>
+                                <p>2023년 IT 트렌드!</p>
+                            </header>
+                            <p>1. 인공지능과 머신러닝 :<br>
+                                인공지능과 머신러닝은 현재 가장 빠르게 발전하고 있는 분야 중 하나입니다. 이 분야에서
+                                개발자는 데이터 처리, 분석, 머신러닝 알고리즘 개발 등의 역할을 수행하게 됩니다.<br>
+                                2. 모바일 앱 개발 :<br>
+                                모바일 기술은 계속해서 발전하고 있습니다. 개발자는 모바일 앱을 개발하고, 앱의 성능과
+                                사용자 경험을 개선하는 등의 역할을 수행하게 됩니다.<br>
+                                3. 블록체인 기술 :<br>
+                                블록체인 기술은 금융, 보안, 로그, 스마트 계약 등 다양한 분야에서 활용될 수 있습니다.
+                                이 분야에서 개발자는 블록체인 기술을 이용한 애플리케이션 및 서비스를 개발하는 등의 역할을
+                                수행하게 됩니다.<br>
+                                4. IoT : <br>
+                                IoT는 인터넷에 연결된 다양한 디바이스들을 이용하여 데이터를 수집하고, 분석하고, 제어하는 기술입니다.
+                                개발자는 IoT 디바이스 및 서비스를 개발하고, 관리하는 등의 역할을 수행하게 됩니다.<br>
+                                5. 클라우드 기술 :<br>
+                                클라우드 기술은 점점 더 중요해지고 있습니다. 개발자는 클라우드 기술을 이용하여 서버리스 애플리케이션을 개발하고,
+                                클라우드 서비스를 이용한 개발 및 배포, 관리를 수행하게 됩니다.<br>
+                                6. 보안 :<br>
+                                보안은 더이상 선택이 아닌 필수 요소가 되었습니다. 개발자는 보안 취약점을 찾아내고,
+                                보안 위협으로부터 시스템을 보호하는 등의 역할을 수행하게 됩니다.<br>
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="col-4 col-12-medium">
+
+                    <!-- Box -->
+                    <section class="box feature">
+                        <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                        <div class="inner">
+                            <header>
+                                <h2>"CommitTogether"을 제대로 활용하는 방법!</h2>
+                                <p>How to use "CommitTogether"</p>
+                            </header>
+                            <p>"CommitTogether" 커뮤니티를 통해서 여러분들은 지식공유, 소통과 협업, 개발자 간 네트워킹,
+                                취업 정보등을 얻을 수 있습니다. 커뮤니티 내에서 다른 개발자들이 올린 글을 읽으면서 새로운 기술과
+                                개념을 배울 수 있고, 다른 개발자들과 소통 및 협업을 할 수 있습니다. 서로 상호적인 피드백을 주고
+                                받을 수 있으며 다른 개발자들과 네트워킹을 통해 다양한 인연을 만들고, 나아가 협력 관계를 유지할 수 있습니다.
+                                또한 취업 정보도 공유 드릴 예정이니 "CommitTogether"를 잘 활용하셔서 훌륭한 개발자가 되길 기원합니다.
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div id="main-wrapper">
+        <div class="container">
+            <div class="row gtr-200">
+                <div class="col-4 col-12-medium">
+
+                    <!-- Sidebar -->
+                    <div id="sidebar">
+                        <section class="widget thumbnails">
+                            <h3>Interesting stuff</h3>
+                            <div class="grid">
+                                <div class="row gtr-50">
+                                    <div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
+                                    <div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
+                                    <div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
+                                    <div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
+                                </div>
+                            </div>
+                            <a href="#" class="button icon fa-file-alt">More</a>
+                        </section>
+                    </div>
+
+                </div>
+                <div class="col-8 col-12-medium imp-medium">
+
+                    <!-- Content -->
+                    <div id="content">
+                        <section class="last">
+                            <h2>So what's this all about?</h2>
+                            <p>This is <strong>Verti</strong>, a free and fully responsive HTML5 site template by <a href="http://html5up.net">HTML5 UP</a>.
+                                Verti is released under the <a href="http://html5up.net/license">Creative Commons Attribution license</a>, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
+                            <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
+                            <a href="#" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-wrapper">
+        <footer id="footer" class="container">
+            <div class="row">
+                <div class="col-3 col-6-medium col-12-small">
+
+                    <!-- Links -->
+                    <section class="widget links">
+                        <h3>Random Stuff</h3>
+                        <ul class="style2">
+                            <li><a href="#">Etiam feugiat condimentum</a></li>
+                            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+                            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+                            <li><a href="#">Felis varius pellentesque potenti</a></li>
+                            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+                <div class="col-3 col-6-medium col-12-small">
+
+                    <!-- Links -->
+                    <section class="widget links">
+                        <h3>Random Stuff</h3>
+                        <ul class="style2">
+                            <li><a href="#">Etiam feugiat condimentum</a></li>
+                            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+                            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+                            <li><a href="#">Felis varius pellentesque potenti</a></li>
+                            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+                <div class="col-3 col-6-medium col-12-small">
+
+                    <!-- Links -->
+                    <section class="widget links">
+                        <h3>Random Stuff</h3>
+                        <ul class="style2">
+                            <li><a href="#">Etiam feugiat condimentum</a></li>
+                            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+                            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+                            <li><a href="#">Felis varius pellentesque potenti</a></li>
+                            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+                <div class="col-3 col-6-medium col-12-small">
+
+                    <!-- Contact -->
+                    <section class="widget contact last">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                            <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+                        </ul>
+                        <p>1234 Fictional Road<br />
+                            Nashville, TN 00000<br />
+                            (800) 555-0000</p>
+                    </section>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="copyright">
+                        <ul class="menu">
+                            <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+
+<script src="src/main/webapp/js/jquery.min.js"></script>
+
+<script src="src/main/webapp/js/browser.min.js"></script>
+<script src="src/main/webapp/js/breakpoints.min.js"></script>
+<script src="src/main/webapp/js/util.js"></script>
+<script src="src/main/webapp/js/main.js"></script>
+
+</body>
+</html>

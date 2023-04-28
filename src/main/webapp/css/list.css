@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-list li {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.post-list li:hover {
+  background-color: #e9ecef;
+}
+
+.post-details {
+  display: none;
+}
+
+.post-details h2,
+.post-details p {
+  margin: 0;
+}
